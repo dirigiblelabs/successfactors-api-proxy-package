@@ -7,6 +7,18 @@
 
 SuccessFactors API Proxy - Package
 
+## Update Content
+```
+mvn clean install -P content
+```
+
+## Build
+```
+mvn clean install -Djava.version=8
+```
+
+> **Note:** This package is based on the [sap-all-ephemeral](https://github.com/eclipse/dirigible/tree/master/releng/sap-all-ephemeral) build
+
 ## License
 
 This project is copyrighted by [SAP SE](http://www.sap.com/) and is available under the [Eclipse Public License v 2.0](https://www.eclipse.org/legal/epl-v20.html). See [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt) for further details.

@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>SuccessFactors Sample - Parent</name>
+    <groupId>io.dirigible</groupId>
+    <artifactId>successfactors-sample-parent</artifactId>
+    <version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>modules</module>
+		<module>package</module>
+	</modules>
+
+	<properties>
+		<dirigible.version>5.1.0-SNAPSHOT</dirigible.version>
+		<jsr250-api.version>1.0</jsr250-api.version>
+		<jetty-servlets.version>9.4.12.v20180830</jetty-servlets.version>
+		<maven.resource.plugin.version>3.0.2</maven.resource.plugin.version>
+		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+		<maven.scm.plugin.version>1.9</maven.scm.plugin.version>
+	</properties>
+
+</project>

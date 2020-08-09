@@ -1,0 +1,8 @@
+{
+    "guid": "successfactors-proxy",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/dirigiblelabs/successfactors-api-proxy.git"
+    }
+}

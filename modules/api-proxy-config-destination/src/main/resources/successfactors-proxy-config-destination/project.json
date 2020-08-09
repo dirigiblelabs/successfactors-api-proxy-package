@@ -1,0 +1,14 @@
+{
+    "guid": "successfactors-proxy-config-destination",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/dirigiblelabs/successfactors-api-proxy-config-destination.git"
+    },
+    "dependencies": [{
+        "guid": "successfactors-proxy",
+        "url": "https://github.com/dirigiblelabs/successfactors-api-proxy.git",
+        "type": "git",
+        "branch": "master"
+  }]
+}
