@@ -20,6 +20,7 @@
 		<maven.resource.plugin.version>3.0.2</maven.resource.plugin.version>
 		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
 		<maven.scm.plugin.version>1.9</maven.scm.plugin.version>
+		<java.version>11</java.version>
 	</properties>
 
 </project>
