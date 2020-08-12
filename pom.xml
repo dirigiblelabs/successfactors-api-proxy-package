@@ -13,6 +13,15 @@
 		<module>package</module>
 	</modules>
 
+	<profiles>
+		<profile>
+			<id>mta</id>
+			<modules>
+				<module>mta</module>
+			</modules>
+		</profile>
+	</profiles>
+
 	<properties>
 		<dirigible.version>5.1.0-SNAPSHOT</dirigible.version>
 		<jsr250-api.version>1.0</jsr250-api.version>

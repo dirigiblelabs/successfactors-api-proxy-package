@@ -7,17 +7,26 @@
 
 SuccessFactors API Proxy - Package
 
-## Update Content
-```
-mvn clean install -P content
-```
 
-## Build
-```
-mvn clean install -Djava.version=8
-```
+## Setup
 
-> **Note:** This package is based on the [sap-all-ephemeral](https://github.com/eclipse/dirigible/tree/master/releng/sap-all-ephemeral) build
+- To update the application (modules) content use the following command:
+    ```
+    mvn clean install -P content
+    ```
+- To build an application package (ROOT.war) use the following command:
+    ```
+    mvn clean install -Djava.version=8
+    ```
+- To build an application package for MTA ([Multitarget Application](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f1caa871360c40e7be7ce4264ab9c336.html) - *.mtar) use the following command:
+    ```
+    mvn clean install -P mta
+    ```
+    > ***Note:** Before executing the MTA package command, the Java version should be set to Java 8*
+
+- To change the home page URL change the `DIRIGIBLE_HOME_URL` property at [package/src/main/resources/dirigible.properties](https://github.com/dirigiblelabs/successfactors-api-proxy-package/blob/master/package/src/main/resources/dirigible.properties)
+
+> ***Note:** This package is based on the [sap-all-ephemeral](https://github.com/eclipse/dirigible/tree/master/releng/sap-all-ephemeral) build*
 
 ## License
 

@@ -28,9 +28,6 @@ function getSAMLAssertion(idpUrl, tokenUrl, clientId, userId, privateKey) {
             name: "user_id",
             value: userId
         }, {
-            name: "use_username",
-            value: true
-        }, {
             name: "private_key",
             value: privateKey
         }],

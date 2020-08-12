@@ -1,0 +1,23 @@
+[{
+    "tileVersion": "NEW_HOME_PAGE",
+    "tiles": [{
+        "name": "SuccessFactors Sample",
+        "section": "My Team",
+        "type": "static",
+        "metadata": [{
+            "title": "SuccessFactors Sample",
+            "subTitle": "",
+            "locale": "en_US"
+        }],
+        "configuration": {
+            "icon": "sap-icon://time-account"
+        },
+        "navigation": {
+            "type": "url",
+            "configuration": {
+                "openInNewWindow": true,
+                "url": "index.html"
+            }
+        }
+    }]
+}]

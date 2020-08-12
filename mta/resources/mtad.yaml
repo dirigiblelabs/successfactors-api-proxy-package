@@ -1,0 +1,20 @@
+_schema-version: '3.1'
+parameters:
+  hcp-deployer-version: '1.2.0'
+  title: SuccessFactors Extension Sample
+  description: SuccessFactors Extension Sample
+
+ID: io.dirigible.successfactors.sample
+version: 1.0.0
+modules:
+  - name: sample
+    type: java.tomcat
+    parameters:
+       name: sample
+       runtime-version: 3
+       sfsf-idp-access: true
+       sfsf-connections:
+         - type: default
+       role-provider: sfsf
+       sfsf-home-page-tiles:
+         resource: resources/tiles.json

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+
+Name: ROOT.war
+MTA-Module: sample
+Content-Type: application/zip
